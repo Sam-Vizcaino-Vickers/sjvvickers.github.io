@@ -1,0 +1,41 @@
+# The following is the order of the links in the header of the website.
+#
+# Changing the order here will adjust the order and you can also add additional
+# links. Removing a link prevents it from showing in the header, but does not
+# prevent it from being included in the site.
+
+main:
+  - title: "Data Consultancy"
+    url: /data-consultancy/
+
+  - title: "CV"
+    url: /files/cv.pdf 
+
+# - title: "Animation Team"
+#  url: /animation-team/
+ 
+# - title: "Blog Post"
+#   url: /blog/
+
+  - title: "Publications"
+    url: /publications/
+    # url: https://scholar.google.com/citations?user=O6oC5K4AAAAJ&hl=en
+
+#  - title: "Teaching"
+#    url: /teaching/  
+    
+#  - title: "Portfolio"
+#    url: /portfolio/
+
+  - title: "Tools"
+    url: /tools/
+        
+  - title: "Writing"
+    url: /year-archive/
+
+  - title: "Contact"
+    url: /contact/
+  
+  - title: "About"
+    url: /markdown/
+ 
