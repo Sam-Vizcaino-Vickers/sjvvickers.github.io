@@ -1,0 +1,11 @@
+author: "Sam J. Vizcaino-Vickers"
+citation: true
+license: "CC BY-SA"
+appendix-cite-as: [bibtex, display]
+bibliography: ref.bib
+toc: true
+toc-depth: 1
+format:
+  html:
+    css: 
+      - "../assets/notes.css"

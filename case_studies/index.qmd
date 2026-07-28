@@ -1,0 +1,29 @@
+---
+author: ''
+listing:
+  contents:
+    - "**/index.qmd"
+    - "**/index.Rmd"
+  sort: "date desc"
+  fields: [date, title, description]
+  type: default
+  categories: false
+  sort-ui: false
+  filter-ui: false
+  date-format: 'Do MMMM, YYYY'
+  id: sample-listings
+title-block-banner: false
+citation: false
+license: ''
+---
+
+::: {#notes-listing-head}
+Here, I share case studies where I experiment with models to deepen my understanding of data modelling and inference, using datasets sourced from Open Science Framework (OSF) GitHub repositories. I will attempt to include all referencing within their appropriate and contained case studies. 
+
+
+:::
+
+
+::: {#sample-listings}
+:::
+

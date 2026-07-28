@@ -1,0 +1,93 @@
+---
+author: 'Sam J. Vizcaino Vickers'
+title: "Monte Carlo Markov Chains (MCMC)"
+date: 2025-08-21
+categories: ["MCMC", "R", "algorithms", "statistics"]
+listing:
+  contents:
+    - "index.qmd"
+  sort: "date desc"
+  fields: [date, title, description]
+  type: default
+  categories: false
+  sort-ui: false
+  filter-ui: false
+  date-format: 'Do MMMM, YYYY'
+  id: sample-listings
+title-block-banner: false
+citation: false
+license: ''
+description: |
+  This case study provides a detailed examination of Monte Carlo Markov Chain (MCMC) methods, with particular attention to their theoretical foundations and practical implementation. The aim is to develop a rigorous understanding of how and why these algorithms function as they do, and to evaluate their capacity for generating reliable approximations and valid statistical inferences within research contexts.
+---
+
+```{r}
+#| include = FALSE
+knitr::opts_chunk$set(echo = TRUE,
+                      warning = FALSE,
+                      message = FALSE)
+```
+
+
+
+
+
+
+
+
+
+
+# Markov Chains 
+
+
+
+
+
+
+
+# Monte Carlo 
+
+
+
+
+
+
+
+
+
+# Readings / Materials 
+
+
+
+
+# Online Books
+
+https://ajohns24.github.io/454_Fall_21/simulation-mcmc-with-rstan.html
+
+
+
+
+# Online Resources 
+
+
+https://www.youtube.com/watch?v=i3AkTO9HLXo&t=1s
+
+https://www.youtube.com/watch?v=VNHeFp6zXKU
+
+https://www.youtube.com/watch?v=KZeIEiBrT_w&t=277s
+
+https://www.youtube.com/watch?v=Ws63I3F7Moc&t=6s
+
+https://www.youtube.com/shorts/vyGQNpToVJM
+
+
+
+
+
+
+
+
+
+
+
+

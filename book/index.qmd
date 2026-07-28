@@ -1,0 +1,27 @@
+---
+title: "The Toolbox: Data Science for Social Scientists"
+toc: false
+page-layout: full
+---
+
+An in-progress book of chapters with specific introductory to advanced topics using `R` and `Python`. Below, you will find links to the Quarto source code of the book, copies of the data files uses in all the chapters.
+
+<!-- Add non-breaking space so that image will be centered. See https://github.com/quarto-dev/quarto-cli/issues/6509#issuecomment-1789454053 -->
+
+[![ ](ddsr_cover_image.jpg)](https://www.amazon.co.uk/dp/1526486776)
+
+*The Toolbox* is about statistical data analysis of real world data using modern tools. It is aimed at those who are currently engaged in, or planning to be engaged in, analysis of statistical data of the kind that might arise at or beyond PhD level scientific research. It is ostensibly aimed at researchers in social science fields, but in fact is equally applicable to many other scientific fields, particularly the biological, medical, and life sciences fields. The data in these types of scientific fields is complex. There are many variables and complex relationships between them. Analyzing this data almost always requires data wrangling, exploration, and visualization. Above all, it involves statistical modelling the data using flexible probabilistic models. These models are then used to reason and make predictions about the scientific phenomenon being studied. This book aims to address all of these topics.
+
+## Source code
+
+This book was written entirely in RMarkdown and compiled to pdf using GNU Makefiles that are run inside a Docker container. The RMarkdown source code, any requisite R or Stan scripts and data files, and the shell scripts and GNU Makefiles and Docker files for building the pdfs of the book are all available in a future repository when all the chapters are fully complete.
+
+## Data files
+
+The csv data files used in each chapter will be available in a future zipfile, which will contain subdirectories to each chapter, inside of which will also contain its data files for each associated chapter.
+
+## Chapter preprints {#ddsr_chapters}
+
+There are ? chapters in the book, listed below. For each one, you can download a preprint pdf. These are the pdfs of the versions of the chapters before the book manuscript was sent to the publisher. Therefore, there are differences between these and the chapters in the published book.
+
+-   [Chapter 1: <i class="far fa-file-pdf"></i>](https://github.com/mark-andrews/ddsr/releases/download/v22.7.31/chapter_01_datascience.pdf) \# ADD chapter from pdf in repository

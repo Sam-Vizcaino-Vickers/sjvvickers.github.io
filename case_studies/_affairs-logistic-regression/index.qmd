@@ -1,0 +1,59 @@
+---
+author: 'Sam J. Vizcaino Vickers'
+title: "Generalized Linear Models on `Affairs` Dataset"
+date: 2025-08-21
+categories: ["logistic regression", "R", "count-model", "GLMs","statistics"]
+listing:
+  contents:
+    - "index.qmd"
+  sort: "date desc"
+  fields: [date, title, description]
+  type: default
+  categories: false
+  sort-ui: false
+  filter-ui: false
+  date-format: 'Do MMMM, YYYY'
+  id: sample-listings
+title-block-banner: false
+citation: false
+license: ''
+description: |
+  A case study on how to analyse the `affairs` dataset using a logistic regression. 
+---
+
+In my 3rd year of my BSc Psychology I was introduced to the `affairs` dataset by [Mark Andrews](https://www.mjandrews.org/). The teaching course went through how to implement a logistic regression over the data and what inferences could be made. For this case study I will also implement the Bayesian approach and cover the similarities and differences as to how to approach the dataset. 
+
+
+
+```{r}
+#| include = FALSE
+knitr::opts_chunk$set(echo = TRUE,
+                      warning = FALSE,
+                      message = FALSE)
+```
+
+
+
+
+
+# Frequentist Approach 
+
+
+
+
+
+
+
+
+
+# Bayesian Approach 
+
+upcoming... 
+
+
+
+
+
+
+
+

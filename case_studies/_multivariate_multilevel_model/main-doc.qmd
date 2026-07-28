@@ -1,0 +1,34 @@
+---
+title: "multivariate-multilevel-model"
+author: "Sam J. Vizcaino-Vickers"
+format: pdf
+editor: visual
+---
+
+# Introduction
+
+During my Masters in Research, I had to tackle a few problems for my data analysis of my dissertation project. I expected that I would not have been able to obtain a full sample, or at least, an appropriate sample to conduct appropriate parametric analyses of the data collection. As most research in psychology attempts to publish data that is normal and also has an appropriate sample size and number of observations. However, I had two outcome variables of interest and required to be analysed the set of predictors I had. So, a lot number of participants, and a high level of predictors and a couple of outcome variables. I concluded that I needed something a bit more advanced and something to tackle the underlying issues I had
+
+# References
+
+<https://jazznbass.github.io/homepage/posts/multivariate_multilevel.html>
+
+<https://paulbuerkner.com/brms/>
+
+<https://journal.r-project.org/archive/2018/RJ-2018-017/RJ-2018-017.pdf>
+
+<https://quantdev.ssri.psu.edu/sites/qdev/files/ILD_Ch05_2017_MultivariateMLM.html>
+
+<https://www.bristol.ac.uk/media-library/sites/cmm/migrated/documents/multilevel-models-in-psychometrics.pdf>
+
+<https://pmc.ncbi.nlm.nih.gov/articles/PMC2792348/>
+
+<https://thechangelab.stanford.edu/tutorials/intensive-longitudinal-analysis/multivariate-multilevel-model-for-longitudinal-coupling-apim-type/>
+
+<https://rips-irsp.com/articles/10.5334/irsp.555>
+
+<https://link.springer.com/article/10.3758/s13428-022-01892-7>
+
+<https://www.stats.ox.ac.uk/~snijders/MLB_new_S.pdf>
+
+<https://www.sciencedirect.com/science/article/abs/pii/S0169716106260127>

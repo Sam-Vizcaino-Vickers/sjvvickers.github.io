@@ -1,0 +1,51 @@
+---
+title: ''
+---
+
+Below is a list of academic publications, including articles, conference proceedings, book chapters, and books. You can also find my [Google Scholar](http://scholar.google.com/citations?user=O6oC5K4AAAAJ&hl=en).
+
+## <i class="fa-solid fa-file-lines"></i> Publications
+
+Park, M. S. A., Badham, S., **Vizcaino-Vickers, S.**, & Fino, E. (2024). Exploring older adults' subjective views on aging positively: development and validation of the positive aging scale. *The Gerontologist*, *64*(9), gnae088.
+
+::: {.content-visible when-format="html"}
+::: {.btn-group role="group" aria-label="Open Science Links"}
+[Data](){.btn-sm .btn .btn-primary .disabled role="button" data-toggle="data" title="Data File"} [Code](){.btn-sm .btn .btn-primary .disabled role="button" data-toggle="code" title="Code File"} [PDF](https://doi.org/10.1093/geront/gnae088){.btn-sm .btn .btn-primary role="button" data-toggle="pdf" title="Full Text"} [OSF](https://osf.io/ws2dy/?view_only=1855f938b65e4d9086ca6950c1276774){.btn-sm .btn .btn-primary role="button" data-toggle="osf" title="OSF Project"}
+:::
+:::
+
+<hr width="10%">
+
+Park, M. A., Golden, K. J., **Vizcaino-Vickers, S.**, Jidong, D., & Raj, S. (2021). Sociocultural values, attitudes and risk factors associated with adolescent cyberbullying in East Asia: A systematic review. *Cyberpsychology: Journal of Psychosocial Research on Cyberspace*, *15*(1).
+
+::: {.content-visible when-format="html"}
+::: {.btn-group role="group" aria-label="Open Science Links"}
+[Data](){.btn-sm .btn .btn-primary .disabled role="button" data-toggle="data" title="Data File"} [Code](){.btn-sm .btn .btn-primary .disabled role="button" data-toggle="code" title="Code File"} [PDF](https://cyberpsychology.eu/article/view/11615){.btn-sm .btn .btn-primary role="button" data-toggle="pdf" title="Full Text"} [OSF](){.btn-sm .btn .btn-primary .disabled role="button" data-toggle="osf" title="OSF Project"}
+:::
+:::
+
+<hr class="section-divider">
+
+## <i class="fa-solid fa-file-lines"></i> Organisational Reports
+
+
+
+## <i class="fa-solid fa-file-lines"></i> Organisational Reports
+
+Office for Students. (2024). Trial protocol Institutional Data Use: University of East Anglia - Peer Assisted Learning (PAL).
+
+::: {.content-visible when-format="html"}
+::: {.btn-group role="group" aria-label="Open Science Links"}
+[PDF](https://cdn.taso.org.uk/wp-content/uploads/2024-09_TASO_Institutional-Data-Use_Uni-East-Anglia_TrialProtocol.pdf){.btn-sm .btn .btn-primary role="button" data-toggle="pdf" title="Full Text"}
+:::
+:::
+
+<hr width="10%">
+
+Office for Students. (2024). Final analysis report Institutional Data Use: University of East Anglia - Peer Assisted Learning (PAL).
+
+::: {.content-visible when-format="html"}
+::: {.btn-group role="group" aria-label="Open Science Links"}
+[PDF](https://cdn.taso.org.uk/wp-content/uploads/2024_Institutional-Data-Use_Uni-East-Anglia_ImpactEvaluation.pdf){.btn-sm .btn .btn-primary role="button" data-toggle="pdf" title="Full Text"}
+:::
+:::

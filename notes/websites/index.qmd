@@ -1,0 +1,48 @@
+---
+author: 'Sam J. Vizcaino Vickers'
+title: "Ways to make Academic Websites"
+date: 2026-01-28
+categories: ["websites", "R", "Quarto", "AI", "academic"]
+listing:
+  contents:
+    - "index.qmd"
+  sort: "date desc"
+  fields: [date, title, description]
+  type: default
+  categories: false
+  sort-ui: false
+  filter-ui: false
+  date-format: 'Do MMMM, YYYY'
+  id: sample-listings
+title-block-banner: false
+citation: false
+license: ''
+description: |
+  This post describes how to start multiple different websites using various different platforms. I will update this post when new developments occur.
+---
+
+# Easy and Conventional
+
+When I first started thinking about building my website, I found out that are ***way*** too many ways to go about it, each with its own strengths and quirks. I first began with **no-code website builders** like [Wix](https://www.wix.com), [Squarespace](https://www.squarespace.com), [Weebly](https://www.weebly.com), [Webflow](https://webflow.com), and [Carrd](https://carrd.co). These are easily found through various adverts as these platforms are fantastic if you want to get something online quickly. In fact, you can drag and drop elements, tweak colors, and make a site that looks polished without ever touching code. The convenience is all honesty unmatched. The only particularity I quickly realized that I was limited to what the builder allowed. Custom features or complex layouts felt restrictive, and I wanted more flexibility for the kinds of case studies and data projects I wanted to showcase.
+
+Next, I explored **Content Management Systems (CMS)**, including [WordPress](https://wordpress.org), [Drupal](https://www.drupal.org), [Joomla](https://www.joomla.org), and [Ghost](https://ghost.org). These platforms are powerful and extensible, with a wealth of themes and plugins to make almost anything possible. They are great for managing large amounts of content, from blogs to portfolios, and they have huge communities ready to help when you get stuck. The downside is that it doesn't really feed into anything that i could demonstrate. I liked the control, but as I said it still didn’t feel fully aligned with the way I wanted to present my work as with the previous exploration.
+
+# More Academic Focused
+
+I then dove into **Static Site Generators (SSGs)** such as [Jekyll](https://jekyllrb.com), [Hugo](https://gohugo.io), [Gatsby](https://www.gatsbyjs.com), [Next.js](https://nextjs.org), and [Eleventy](https://www.11ty.dev). These felt like a bridge between flexibility and speed. With SSGs, I could write content in markdown, integrate code and data, and produce fast, secure static sites. They also work seamlessly with GitHub for version control. The main challenge was the huge learning curve — setting up templates and dealing with dynamic features was trickier than a drag-and-drop builder, but I could see the long-term benefits for my portfolio. Nonetheless, with the help of AI the learning curve was not as bad.
+
+For completeness, I also considered **hand-coding** a website from scratch using [HTML](https://en.wikipedia.org/wiki/HTML), [CSS](https://en.wikipedia.org/wiki/CSS), and [JavaScript](https://en.wikipedia.org/wiki/JavaScript), possibly with frameworks like React or Vue, and even backend technologies like [Django](https://www.djangoproject.com/) or [Flask](https://flask.palletsprojects.com/en/stable/) for dynamic functionality. I used some knowledge from [FreeCodeCamp](https://www.freecodecamp.org/) to get up to speed and learn quickly as possible (although some would say otherwise). This route offers total freedom and is an incredible way to learn web development deeply. However, it’s time-intensive, requires significant technical expertise, and puts the onus on me to manage hosting, security, and optimization. While tempting, it felt like overkill for my goals.
+
+I also looked at **low-code platforms** like [Bubble](https://bubble.io), [OutSystems](https://www.outsystems.com), and [Retool](https://retool.com). These are hybrids — you can drag and drop, but you also get the option to add custom code. They’re great for dashboards or small web apps, and they handle hosting for you, but costs can be high, and I still wanted something more transparent and flexible for integrating code and data. I didn't entertain this option a lot since it
+
+After exploring all these options, I ultimately chose [**Quarto**](https://quarto.org). Quarto allows me to combine narrative text, code, and data analysis in a way that is fully reproducible and web-friendly. It gives me the flexibility of a static site generator while keeping everything organized, integrated, and easy to maintain. For my case studies, experiments, and learning journey, it was the perfect fit — a tool that lets me present my work exactly how I want, while still learning and growing as I go. This is the exact way I created this website and also for my role as [**Psychology Technician**](https://wu-psychology-technician.github.io/).
+
+# Current AI Methods
+
+For web development and content creation, I leverage modern AI tools like [**Loveable**](https://www.loveable.ai/) and [**Cursor.ai**](https://www.cursor.ai/). These tools work in tandem to streamline the website creation process and accelerate productivity while maintaining full creative control.
+
+**Loveable** is designed to assist with generating content and design suggestions. It can propose layouts, design components, and even sample content for different sections of your site based on your preferences. This allows you to rapidly prototype pages, test different ideas, and ensure consistency across your website.
+
+**Cursor.ai** complements this by focusing on code generation and automation. It can translate design and content specifications into functional HTML, CSS, and JavaScript, and even integrate components dynamically. Cursor can also help with debugging, suggesting optimizations, and connecting interactive features such as forms, dashboards, or APIs.
+
+Using these tools in sync, the workflow typically looks like this: you start by using Loveable to brainstorm and design the overall website structure and content flow. Once the layout and textual content are refined, Cursor.ai takes over to generate the underlying code and implement interactivity. This back-and-forth can continue iteratively — Loveable suggesting tweaks in design or content, and Cursor translating those into clean, deployable code. By combining the strengths of both platforms, you can efficiently build a professional website with minimal manual coding, while still being able to customize and enhance features as needed.

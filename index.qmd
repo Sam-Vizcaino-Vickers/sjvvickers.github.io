@@ -1,0 +1,64 @@
+---
+title: "Sam J. Vizcaino Vickers"
+pagetitle: "Sam J. Vizcaino Vickers"
+subtitle: "**Psychology Technician | PhD Student | Psychometrics | Bayesian Statistics**" 
+image: ../assets/theta_nabla_shape_badge_dark_v4.png
+image-alt: "Logo with three greek letter: theta symbol with lattice background"
+open-graph:
+  title: "Sam Vizcaino Vickers"
+  description: "PhD student in Psychology | Psychometrics and Bayesian statistical modeling"
+  image: ../assets/theta_nabla_shape_badge_dark_v4.png
+
+twitter-card:
+  title: "Sam J. Vizcaino Vickers"
+  description: "PhD student in Psychology | Statistical modeling Enthusiast"
+  image: ../assets/theta_nabla_shape_badge_dark.png
+
+about:
+  template: solana
+  image-width: 24em
+  id: hero-heading
+  links:
+    - text: "{{< iconify fa6-brands bluesky >}}"
+      aria-label: "Bluesky"
+      href: https://bsky.app/profile/sjvvickers.bsky.social
+    - text: "{{< iconify fa6-brands github >}}"
+      href: https://github.com/Sam-Vizcaino-Vickers
+    - text: "{{< iconify fa6-brands orcid >}}"
+      href: https://orcid.org/0009-0003-9353-5222
+    - text: "{{< iconify fa6-brands researchgate >}}"
+      href: https://www.researchgate.net/profile/Sam-Vizcaino-Vickers-2?ev=hdr_xprf
+    - text: "{{< iconify fa6-brands twitter >}}"
+      href: https://x.com/SamJVVickers
+#    - text: "{{< iconify fa6-brands youtube >}}"
+#      href: https://www.youtube.com/@psicometries
+    - text: "{{< iconify academicons google-scholar >}}"
+      href: https://scholar.google.com/citations?user=O6oC5K4AAAAJ&hl=en&oi=ao
+    - text: "{{< iconify mdi gmail >}}"
+      href: mailto:sjvvickers213@gmail.com
+      
+page-layout: full
+
+execute: 
+  freeze: false
+  echo: false
+  warning: false
+
+resources:
+  - assets/main.css
+  - assets/index.css
+  - assets/theta_nabla_shape_badge_dark.png
+
+format:
+  html:
+    include-in-header:
+      - text: |
+          <link rel="stylesheet" href="assets/index.css">
+---
+
+<br><br>
+
+::: {#hero-heading}
+
+I’m a Psychology Technician at [Wrexham University](wrexham.ac.uk). and a researcher interested in Bayesian Statistics, Psychometrics and Mental Health. I also enjoy doing outreach in statistics for psychology. 
+:::

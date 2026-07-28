@@ -1,0 +1,38 @@
+---
+title: ""
+---
+
+I am a Psychology Technician in the Department of Psychology at [Wrexham University](https://wrexham.ac.uk/). My academic focus is on Bayesian Statistics and Personality Science. I hold a [BSc](https://www.ntu.ac.uk/course/social-sciences/ug/bsc-hons-psychology-mental-health) and an [MRes](https://www.ntu.ac.uk/course/social-sciences/pg/msc-mres-psychological-research-methods) in Psychology from [Nottingham Trent University](https://www.ntu.ac.uk/) (NTU)
+and am currently working towards obtaining the [Fellowship of the Higher Education Academy](https://www.advance-he.ac.uk/fellowship/fellowship) (FHEA). 
+
+My current goal is to contribute to research and support the department in my role as a Psychology Technician, while further developing my expertise in advanced experimental and statistical methods whilst pursuing research in alignment to my PhD in the future.
+
+## Contact
+
+::: {#contacts-list}
+-   <i class="fa-regular fa-envelope"></i> [sam.vickers@wrexham.ac.uk](mailto:sam.vickers@wrexham.ac.uk)
+-   <i class="fa-brands fa-github"></i> [github.com/sam-vizcaino-vickers](https://github.com/sam-vizcaino-vickers)
+:::
+
+
+
+# Toolbox 
+
+
+## Tech Stack 
+
+- R & RStudio,   
+- Git, GitHub, Quarto
+- Claude Code 
+
+
+# Domain Knowledge 
+
+- Bayesian Data Analysis 
+- Experimental Design
+- Psychometrics
+
+
+# About this Website 
+
+This website was built with [Quarto](https://quarto.org/). It was last updated on {{< meta build_date >}}. All content is copyrighted by {{< var copyright_holder >}}, 2025-{{< meta build_year >}}, and licensed for reuse under [{{< var licence.full >}}]({{< var licence.url >}}) licence. This site uses adapted code from <https://github.com/mark-andrews/mjandrews.org> by [Mark Andrews](https://www.mjandrews.org/). licensed under CC BY-SA 4.0.

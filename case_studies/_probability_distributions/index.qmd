@@ -1,0 +1,103 @@
+---
+title: "index"
+format: html
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+## Functions Needed to Define a Probability Distribution
+
+To fully define and work with a probability distribution, several
+mathematical functions are necessary. These capture the distribution’s
+structure, its cumulative properties, its inverse relations, and its
+moments.
+
+### 1. Probability Function (PF)
+
+The foundation: it tells you the probability of outcomes.
+
+-   **Discrete Distributions → Probability Mass Function (PMF):** A
+    function ( p(x) ) that assigns a probability to each possible
+    outcome.
+
+Conditions: $p(x) \geq 0, \quad \sum_{x} p(x) = 1$
+
+-   **Continuous Distributions → Probability Density Function (PDF):** A
+    function ( f(x) ) such that probabilities are given by areas under
+    the curve.
+
+Conditions: $f(x) \geq 0, \quad \int_{-\infty}^{\infty} f(x),dx = 1$
+
+------------------------------------------------------------------------
+
+### 2. Cumulative Distribution Function (CDF)
+
+Denoted ( F(x) ). Gives the probability that a random variable (X) is
+less than or equal to (x).
+
+$F(x) = P(X \leq x)$
+
+-   Discrete: $F(x) = \sum_{t \leq x} p(t)$\
+-   Continuous: $F(x) = \int_{-\infty}^{x} f(t),dt$
+
+------------------------------------------------------------------------
+
+### 3. Quantile Function (Inverse CDF)
+
+Denoted ( Q(p) ). The inverse of the CDF, mapping a probability back to
+the value of the random variable.
+
+$Q(p) = F^{-1}(p), \quad 0 < p < 1$
+
+Useful in simulations for sampling random values.
+
+------------------------------------------------------------------------
+
+### 4. Moment Functions
+
+These describe the shape of the distribution.
+
+-   **Expected Value (Mean):** $\mu = \mathbb{E}[X]$ =
+
+    $$
+    \begin{cases}\sum_x x p(x) & \text{(discrete)} \\\int_{-\infty}^{\infty} x f(x)\,dx & \text{(continuous)}\end{cases}
+    $$
+
+-   **Variance:** $\sigma^2 = \mathbb{E}[(X-\mu)^2$
+
+-   **Higher Moments:** skewness, kurtosis, etc.
+
+-   **Moment Generating Function (MGF):** $M_X(t) = \mathbb{E}[e^{tX}]$
+
+-   **Characteristic Function (CF):**
+    $\varphi_X(t) = \mathbb{E}[e^{itX}]$
+
+Both encode the distribution fully.
+
+------------------------------------------------------------------------
+
+### 5. Support Function
+
+Defines the set of values where the distribution has non-zero
+probability.
+
+Examples: - Binomial: ${(0,1,\dots,n} ) - Normal: ( (-\infty,\infty)$
+
+------------------------------------------------------------------------
+
+### ✅ Summary
+
+To fully describe a probability distribution, you need:
+
+-   1\. PMF or PDF (core function)
+
+-   2\. CDF
+
+-   3\. Quantile function
+
+-   4\. Moment functions (mean, variance, skewness, kurtosis)
+
+-   5\. MGF/CF (for full characterization)
+
+-   6\. Support (domain of definition)

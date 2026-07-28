@@ -1,0 +1,31 @@
+---
+author: 'Sam J. Vizcaino Vickers'
+title: "Arch Linux Integration"
+date: 2025-08-25
+categories: ["Arch","Linux", "R", "Python", "statistics"]
+listing:
+  contents:
+    - "index.qmd"
+  sort: "date desc"
+  fields: [date, title, description]
+  type: default
+  categories: false
+  sort-ui: false
+  filter-ui: false
+  date-format: 'Do MMMM, YYYY'
+  id: sample-listings
+title-block-banner: false
+citation: false
+license: ''
+description: |
+  Notes on my experience with swapping from Windows to Linux. Or in other words, "By the way, I use Arch Linux".  
+---
+
+
+# Introduction 
+
+
+
+
+
+# References 

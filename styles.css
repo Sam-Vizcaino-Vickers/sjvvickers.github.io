@@ -1,0 +1,63 @@
+/* css styles */
+/* --- Global Dark Mode Theme --- */
+body {
+  background-color: #141e37; /* Deep base canvas */
+  color: #f4f6f9;            /* Crisp, bright text for readability */
+}
+
+/* --- Typography & Headings --- */
+h1, h2, h3, h4, h5, h6 {
+  color: #4fbaa8;            /* Sharp accent for structure */
+  font-weight: 600;
+  border-bottom-color: rgba(80, 185, 168, 0.2); /* Subtle divider lines */
+}
+
+/* --- Hyperlinks --- */
+a {
+  color: #4fbaa8;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+a:hover {
+  color: #72cdbe;            /* Slightly brighter tint on hover */
+  text-decoration: underline;
+}
+
+/* --- Inline Code & Blocks --- */
+code {
+  color: #4fbaa8;
+  background-color: rgba(80, 185, 168, 0.1);
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+}
+
+pre {
+  background-color: #0b1120 !important; /* Darker terminal-style block */
+  border: 1px solid rgba(80, 185, 168, 0.3);
+  border-radius: 6px;
+}
+
+/* --- Callout Boxes & Blockquotes --- */
+.callout {
+  background-color: rgba(20, 30, 55, 0.6) !important;
+  border-left-color: #4fbaa8 !important;
+}
+
+blockquote {
+  color: #a0aec0;
+  border-left: 4px solid #4fbaa8;
+  background-color: rgba(80, 185, 168, 0.05);
+  padding: 10px 15px;
+}
+
+/* --- Tables --- */
+table, th, td {
+  border-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+th {
+  background-color: rgba(80, 185, 168, 0.15);
+  color: #4fbaa8;
+}
+

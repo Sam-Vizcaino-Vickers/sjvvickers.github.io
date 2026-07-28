@@ -1,0 +1,38 @@
+---
+title: "index"
+format: html
+---
+
+I am a freelance/mercenary/gentleman statistician developing Bayesian analysis methodologies, computational tools, and pedagogical resources to help bridge statistical theory and applied practice. My ultimate goal is to help scientists draw more precise, and more principled, insights from their data.
+
+I originally trained in at NTU and currently transitioning towards more statistical work outlets. Since then I have collaborated on diverse projects in the social sciences with applications in psychology, educational development and biobank-based data. 
+
+I would greatly appreciate if you support my work then please consider: 
+
+
+  - Patreon  
+  - Bluesky
+  - Sharing my case studies + notes 
+  - Consulation
+  
+  
+
+# Academic Websites Powered by Quarto
+
+
+I can help you create your own academic/personal website powered through Quarto. Websites can be published through Quarto Pub or Github pages. For an example, my website sjvvickers.github.io is entirely created through Quarto. Below are some base packages that you can start with, however prices may vary if features are added or removed from these base package
+
+
+Features                                                  Rate
+-------------------------       
+Home Page + CV + Blog + Favixon/Banner/Logo             £1,000
+Home Page + CV + Blog                                   £750
+Home Page + CV                                          £500
+
+
+
+
+```{=html}
+<script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="sjvvickers" data-description="Support me on Buy me a coffee!" data-message="" data-color="#f1f9fa" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
+```
+

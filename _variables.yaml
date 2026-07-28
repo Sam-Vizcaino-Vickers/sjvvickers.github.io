@@ -1,0 +1,33 @@
+copyright_holder: 'Sam J. Vizcaino-Vickers'
+copyright_years:  '2025'
+licence:
+  full:           'Creative Commons Attribution-ShareAlike 4.0'
+  short:          'CC BY-SA 4.0'
+  url:            'https://creativecommons.org/licenses/by-sa/4.0/'
+
+repo-url: "https://github.com/Sam-Vizcaino-Vickers/sjvvickers.org"
+
+social_media:
+    # youtube:
+    #     url:    "https://www.youtube.com/@samj.vizcaino-vickers8512"
+    #     image:  "iconmonstr-youtube-1.svg"
+    mail:
+        label:    "sam.vickers@wrexham.ac.uk"
+        url:      "mailto:sam.vickers.@wrexham.ac.uk"
+        image:    "mail.svg"
+    github:
+        label:    "github.com/Sam-Vizcaino-Vickers"
+        url:      "https://github.com/Sam-Vizcaino-Vickers"
+        image:    "github.svg"
+    github:
+        label:    "github.com/WU-Psychology-Technician"
+        url:      "https://github.com/WU-Psychology-Technician"
+        image:    "github.svg"  
+#    twitter:
+#        label:    "@sjvvickers"
+#        url:      "https://twitter.com/sjvvickers"
+#        image:    "twitter.svg"
+#    bluesky:
+#        label:    "@sjvvickers"
+#        url:      "https://twitter.com/sjvvickers"
+#        image:    "bluesky.svg"

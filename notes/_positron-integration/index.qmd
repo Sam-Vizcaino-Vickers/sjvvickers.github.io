@@ -1,0 +1,64 @@
+---
+author: 'Sam J. Vizcaino Vickers'
+title: "Positron & Python Integration"
+date: 2025-08-25
+categories: ["Positron", "R", "Python", "Statistics"]
+listing:
+  contents:
+    - "index.qmd"
+  sort: "date desc"
+  fields: [date, title, description]
+  type: default
+  categories: false
+  sort-ui: false
+  filter-ui: false
+  date-format: 'Do MMMM, YYYY'
+  id: sample-listings
+title-block-banner: false
+citation: false
+license: ''
+description: |
+  Notes on my experience with the new IDE by Posit PBC called Positron. Including some notes on how I am integrating my work from solely R with Python and the new apps that I have integrated in my workflow. 
+---
+
+
+# Introduction
+
+
+I am slowly converting towards learning Python for understanding the newer AI / Machine learning devevelopemtn, and for that I thought it would be best to finally start learning Positron at the same time. Although I have had experience with using Visual Studio code when I was attempting to learning Game Development and conducting some small tracking programmes using the `cv2` library. 
+
+However, I wanted to fully implement Quarto and with the help of Positron and 
+
+
+
+
+Positron uses a workspace environment with features that highly resemble Visual Studio code's environemtn of panes, command palette and have less of an "R-Native" feel to it. Nonetheless, to feel uncomfortable is an initial state that is required before learning something that is new. Additionally, Rstudio uses `.Rproj` files to define projects through
+
+
+Technical & Feature Challenges
+
+- Environment & Package Management
+
+RStudio integrates smoothly with .libPaths() and package installs. In Positron, you may need to manage environments differently (e.g., using renv, virtual environments, or external tools), which can feel more manual.
+
+
+Debugger & Interactive Features
+
+RStudio has a very polished R debugger and environment viewer.
+Positron is still maturing in this area — some of the tools you rely on may not yet be fully implemented.
+
+
+
+
+RStudio → Positron transition feels like: moving from a specialized, purpose-built IDE to a more general-purpose, flexible coding environment.
+
+Main challenges: losing RStudio’s polished R-specific workflow while gaining broader language flexibility.
+
+
+
+
+
+# References
+
+
+
