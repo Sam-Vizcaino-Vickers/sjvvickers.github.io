@@ -18,6 +18,9 @@ website:
   repo-branch: "main"
   repo-actions: 'none'
   navbar:
+    type: dark 
+    background: "#181a1a"
+    pinned: true
     right:
       - href: index.qmd
         text: "Home"
@@ -47,7 +50,7 @@ format:
   html:
     copy-code: true
     page-layout: full
-    theme: [litera, assets/main.scss]
+    theme: [darkly, assets/main.scss]
     css: 
       - assets/main.css
     toc: true
@@ -57,4 +60,10 @@ format:
 extensions:
   iconify:
     size: "2em"
+
+
+
+
+
+
 

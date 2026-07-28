@@ -12,7 +12,7 @@ open-graph:
 twitter-card:
   title: "Sam J. Vizcaino Vickers"
   description: "PhD student in Psychology | Statistical modeling Enthusiast"
-  image: assets/theta_nabla_shape_badge_dark.png
+  image: assets/theta_nabla_shape_badge_dark_v4.png
 
 about:
   template: solana
