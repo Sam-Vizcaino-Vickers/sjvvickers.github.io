@@ -4,7 +4,7 @@ title: ''
 
 Below is a list of academic publications, including articles, conference proceedings, book chapters, and books. You can also find my [Google Scholar](http://scholar.google.com/citations?user=O6oC5K4AAAAJ&hl=en).
 
-## <i class="fa-solid fa-file-lines"></i> Publications
+## <i class="fa-solid fa-file-lines"></i> Academic Publications
 
 Park, M. S. A., Badham, S., **Vizcaino-Vickers, S.**, & Fino, E. (2024). Exploring older adults' subjective views on aging positively: development and validation of the positive aging scale. *The Gerontologist*, *64*(9), gnae088.
 
@@ -28,9 +28,6 @@ Park, M. A., Golden, K. J., **Vizcaino-Vickers, S.**, Jidong, D., & Raj, S. (202
 
 ## <i class="fa-solid fa-file-lines"></i> Organisational Reports
 
-
-
-## <i class="fa-solid fa-file-lines"></i> Organisational Reports
 
 Office for Students. (2024). Trial protocol Institutional Data Use: University of East Anglia - Peer Assisted Learning (PAL).
 
