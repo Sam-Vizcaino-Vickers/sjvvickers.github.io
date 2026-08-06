@@ -25,6 +25,25 @@ description: |
 # Introduction 
 
 
+Going from Windows to Linux has been a slow progression for me. Especially since in my job using Windows is still heavily used for various applications in my role as a Psychology Technician. 
+
+
+
+
+
+
+
+
+
+
+
+# Selecting Omarchy 
+
+I like all the configurations provided by Arch Linux, but something that I like even more is the curated configuration of Omarchy which uses Arch Linux behind it. 
+
+
+
+
 
 
 

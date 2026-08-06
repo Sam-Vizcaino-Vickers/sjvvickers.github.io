@@ -1,0 +1,3 @@
+
+
+this folder will hold the src code for my open Zotero/Obsidian library to show my growing Obsidian Network of different connections and knowledge base. 

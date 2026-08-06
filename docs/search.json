@@ -28,11 +28,18 @@
     "text": "Easy and Conventional\nWhen I first started thinking about building my website, I found out that are way too many ways to go about it, each with its own strengths and quirks. I first began with no-code website builders like Wix, Squarespace, Weebly, Webflow, and Carrd. These are easily found through various adverts as these platforms are fantastic if you want to get something online quickly. In fact, you can drag and drop elements, tweak colors, and make a site that looks polished without ever touching code. The convenience is all honesty unmatched. The only particularity I quickly realized that I was limited to what the builder allowed. Custom features or complex layouts felt restrictive, and I wanted more flexibility for the kinds of case studies and data projects I wanted to showcase.\nNext, I explored Content Management Systems (CMS), including WordPress, Drupal, Joomla, and Ghost. These platforms are powerful and extensible, with a wealth of themes and plugins to make almost anything possible. They are great for managing large amounts of content, from blogs to portfolios, and they have huge communities ready to help when you get stuck. The downside is that it doesn’t really feed into anything that i could demonstrate. I liked the control, but as I said it still didn’t feel fully aligned with the way I wanted to present my work as with the previous exploration.\n\n\nMore Academic Focused\nI then dove into Static Site Generators (SSGs) such as Jekyll, Hugo, Gatsby, Next.js, and Eleventy. These felt like a bridge between flexibility and speed. With SSGs, I could write content in markdown, integrate code and data, and produce fast, secure static sites. They also work seamlessly with GitHub for version control. The main challenge was the huge learning curve — setting up templates and dealing with dynamic features was trickier than a drag-and-drop builder, but I could see the long-term benefits for my portfolio. Nonetheless, with the help of AI the learning curve was not as bad.\nFor completeness, I also considered hand-coding a website from scratch using HTML, CSS, and JavaScript, possibly with frameworks like React or Vue, and even backend technologies like Django or Flask for dynamic functionality. I used some knowledge from FreeCodeCamp to get up to speed and learn quickly as possible (although some would say otherwise). This route offers total freedom and is an incredible way to learn web development deeply. However, it’s time-intensive, requires significant technical expertise, and puts the onus on me to manage hosting, security, and optimization. While tempting, it felt like overkill for my goals.\nI also looked at low-code platforms like Bubble, OutSystems, and Retool. These are hybrids — you can drag and drop, but you also get the option to add custom code. They’re great for dashboards or small web apps, and they handle hosting for you, but costs can be high, and I still wanted something more transparent and flexible for integrating code and data. I didn’t entertain this option a lot since it\nAfter exploring all these options, I ultimately chose Quarto. Quarto allows me to combine narrative text, code, and data analysis in a way that is fully reproducible and web-friendly. It gives me the flexibility of a static site generator while keeping everything organized, integrated, and easy to maintain. For my case studies, experiments, and learning journey, it was the perfect fit — a tool that lets me present my work exactly how I want, while still learning and growing as I go. This is the exact way I created this website and also for my role as Psychology Technician.\n\n\nCurrent AI Methods\nFor web development and content creation, I leverage modern AI tools like Loveable and Cursor.ai. These tools work in tandem to streamline the website creation process and accelerate productivity while maintaining full creative control.\nLoveable is designed to assist with generating content and design suggestions. It can propose layouts, design components, and even sample content for different sections of your site based on your preferences. This allows you to rapidly prototype pages, test different ideas, and ensure consistency across your website.\nCursor.ai complements this by focusing on code generation and automation. It can translate design and content specifications into functional HTML, CSS, and JavaScript, and even integrate components dynamically. Cursor can also help with debugging, suggesting optimizations, and connecting interactive features such as forms, dashboards, or APIs.\nUsing these tools in sync, the workflow typically looks like this: you start by using Loveable to brainstorm and design the overall website structure and content flow. Once the layout and textual content are refined, Cursor.ai takes over to generate the underlying code and implement interactivity. This back-and-forth can continue iteratively — Loveable suggesting tweaks in design or content, and Cursor translating those into clean, deployable code. By combining the strengths of both platforms, you can efficiently build a professional website with minimal manual coding, while still being able to customize and enhance features as needed.\n\n\n\n\n\n\n\n\n\nNo matching items\n Back to top"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
+    "objectID": "index.html#skills",
+    "href": "index.html#skills",
     "title": "Sam J. Vizcaino Vickers",
-    "section": "",
-    "text": "I’m a Psychology Technician at Wrexham University. and a researcher interested in Bayesian Statistics, Psychometrics and Mental Health. I also enjoy doing outreach in statistics for psychology.\n\n    \n    \n  \n\n\n\n\n\n\n Back to top"
+    "section": "Skills",
+    "text": "Skills\n\n\n\nR\n\n\n\nBayesian Statistics\n\n\n\nComputational Modeling\n\n\n\nVirtual Reality\n\n\n\nPsychology"
+  },
+  {
+    "objectID": "index.html#sustainable-development-goals",
+    "href": "index.html#sustainable-development-goals",
+    "title": "Sam J. Vizcaino Vickers",
+    "section": "Sustainable Development Goals",
+    "text": "Sustainable Development Goals\nAlthough not directly working with, some of my academic interests and underlying goals follow several targets of the Sustainable Development Goals set out by the United Nations. Engaging with the public and aligning research with national and international priorities is an important part of academic work, and this is one way I try to show that engagement with wider society.\n\n  \n    \n  \n  \n    \n  \n  \n    \n  \n\n \nPlease look at the About section to find more about my specific interests related to my academic work."
   },
   {
     "objectID": "case_studies/index.html",
@@ -44,23 +51,16 @@
   {
     "objectID": "about/index.html",
     "href": "about/index.html",
-    "title": "Toolbox",
+    "title": "Current Interests",
     "section": "",
     "text": "I am a Psychology Technician in the Department of Psychology at Wrexham University. My academic focus is on Bayesian Statistics and Personality Science. I hold a BSc and an MRes in Psychology from Nottingham Trent University (NTU) and am currently working towards obtaining the Fellowship of the Higher Education Academy (FHEA).\nMy current goal is to contribute to research and support the department in my role as a Psychology Technician, while further developing my expertise in advanced experimental and statistical methods whilst pursuing research in alignment to my PhD in the future."
   },
   {
     "objectID": "about/index.html#contact",
     "href": "about/index.html#contact",
-    "title": "Toolbox",
+    "title": "Current Interests",
     "section": "Contact",
     "text": "Contact\n\n\n sam.vickers@wrexham.ac.uk\n github.com/sam-vizcaino-vickers"
-  },
-  {
-    "objectID": "about/index.html#tech-stack",
-    "href": "about/index.html#tech-stack",
-    "title": "Toolbox",
-    "section": "Tech Stack",
-    "text": "Tech Stack\n\nR & RStudio,\n\nGit, GitHub, Quarto\nClaude Code"
   },
   {
     "objectID": "book/index.html",
@@ -116,6 +116,6 @@
     "href": "projects/index.html",
     "title": "Sam J. Vizcaino Vickers",
     "section": "",
-    "text": "This is a list of projects that I am currently collaborating in, both academic and industry based.\n\nAnalysing pre and post anxiety in high engaging collaborative game environments.\nCreating VR applications for Demonstrations of Psychological phenomena\nAn R package for teaching statistics for Welsh students\n\n\n\n\n Back to top"
+    "text": "This is a list of projects that I am currently collaborating in, both academic and industry based.\n\nCreating VR applications for Demonstrations of Psychological phenomena across several modules\nAn R package for teaching statistics for Welsh students\n\n\n\n\n Back to top"
   }
 ]

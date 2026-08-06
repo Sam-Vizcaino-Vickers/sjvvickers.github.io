@@ -51,6 +51,7 @@ resources:
 
 format:
   html:
+    toc: false
     include-in-header:
       - text: |
           <link rel="stylesheet" href="assets/index.css">
@@ -60,5 +61,88 @@ format:
 
 ::: {#hero-heading}
 
-I’m a Psychology Technician at [Wrexham University](wrexham.ac.uk). and a researcher interested in Bayesian Statistics, Psychometrics and Mental Health. I also enjoy doing outreach in statistics for psychology. 
+I’m a Psychology Technician ([PsychTech](https://wu-psychology-technician.github.io/)) at [Wrexham University](https://wrexham.ac.uk/), and a researcher interested in Bayesian Statistics, Psychometrics and Mental Health. I also enjoy doing outreach in statistics for psychology. 
 :::
+
+
+
+::: {#Skills-heading .skills-section}
+## Skills
+
+::: {.skills-grid}
+
+::: {.skill-item}
+{{< iconify fa6-brands r-project size=3rem style="color:#00FFFF;" >}}
+
+[R]{.section-subheading}
+:::
+
+::: {.skill-item}
+{{< iconify fa6-solid sitemap size=3rem style="color:#00FFFF;" >}}
+
+[Bayesian Statistics]{.section-subheading}
+:::
+
+::: {.skill-item}
+{{< iconify fa6-solid dice-d20 size=3rem style="color:#00FFFF;" >}}
+
+[Computational Modeling]{.section-subheading}
+:::
+
+::: {.skill-item}
+{{< iconify fa6-solid vr-cardboard size=3rem style="color:#00FFFF;" >}}
+
+[Virtual Reality]{.section-subheading}
+:::
+
+::: {.skill-item}
+{{< iconify fa6-solid brain size=3rem style="color:#00FFFF;" >}}
+
+[Psychology]{.section-subheading}
+:::
+
+:::
+:::
+
+::: {#goals-heading .goals-section}
+## Sustainable Development Goals
+
+Although not directly working with, some of my academic interests and underlying goals follow several targets of the [Sustainable Development Goals](https://www.undp.org/sustainable-development-goals) set out by the [United Nations](https://sdgs.un.org/goals). Engaging with the public and aligning research with national and international priorities is an important part of academic work, and this is one way I try to show that engagement with wider society.
+
+```{=html}
+<div class="goals-grid">
+  <a class="goal-item" href="https://www.undp.org/sustainable-development-goals/good-health" target="_blank" rel="noopener noreferrer">
+    <img src="assets/UN-SG-03.png" alt="UN Sustainable Development Goal 3: Good Health and Well-being">
+  </a>
+  <a class="goal-item" href="https://www.undp.org/sustainable-development-goals/quality-education" target="_blank" rel="noopener noreferrer">
+    <img src="assets/UN-SG-04.png" alt="UN Sustainable Development Goal 4: Quality Education">
+  </a>
+  <a class="goal-item" href="https://www.undp.org/sustainable-development-goals/partnerships-for-the-goals" target="_blank" rel="noopener noreferrer">
+    <img src="assets/UN-SG-17.png" alt="UN Sustainable Development Goal 17: Partnerships for the Goals">
+  </a>
+</div>
+```
+
+{{< pagebreak >}}
+{{< pagebreak >}}
+
+Please look at the [About](sam-vizcaino-vickers.github.io/about/) section to find more about my specific interests related to my academic work. 
+
+:::
+
+::: {#partnerships-collaboration}
+
+# Collaborations 
+
+If you seek to discuss potential collaborations for academic publications, conduct collaborative research, or any other enquiries then please do contact me via [sam.vickers@wrexham.ac.uk](mailto:sam.vickers@Wrexham.ac.uk). 
+:::
+
+
+
+
+
+
+
+  
+
+

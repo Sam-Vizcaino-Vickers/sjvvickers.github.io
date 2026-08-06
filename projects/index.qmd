@@ -4,8 +4,6 @@ title: ""
 
 This is a list of projects that I am currently collaborating in, both academic and industry based.
 
--   Analysing pre and post anxiety in high engaging collaborative game environments.
-
--   Creating VR applications for Demonstrations of Psychological phenomena
+-   Creating VR applications for Demonstrations of Psychological phenomena across several modules
 
 -   An R package for teaching statistics for Welsh students

@@ -1,0 +1,165 @@
+---
+author: 'Sam J. Vizcaino Vickers'
+title: "How to make an R Package"
+date: 2026-08-27
+categories: ["R", "R Package", "usethis", "devtools"]
+toc: true
+listing:
+  contents:
+    - "index.qmd"
+  sort: "date desc"
+  fields: [date, title, description]
+  type: default
+  categories: false
+  sort-ui: false
+  filter-ui: false
+  date-format: 'Do MMMM, YYYY'
+  id: sample-listings
+title-block-banner: false
+citation: false
+license: ''
+description: |
+  This post will guide readers on how to make an R package. This is the way I learned how to create R packages during my time at Wrexham University through various online blogs and technical books. 
+---
+
+This guide for creating R packages will be done using other R packages such as `usethis` and `devtools` and conducted in the RStudio IDE. This will be an attempt to decompose some important elements from [official guide to creating R Packages](https://cran.r-project.org/doc/manuals/r-release/R-exts.html) and with some additional workflows for making R packages easier. This also takes inspiration from a few technical blog posts (https://www.mjandrews.org/notes/how-to-make-an-R-package/) and also online books [R Package 2ed](https://r-pkgs.org/). However, I have created this blog post for myself when attempting to create R packages in a structure that is easy to follow and understandable for a user learning the technical side of things. This document may also change from time to time with new additional function if I find it suitable for the workflow.
+
+You can follow this guide sequentially to be able to create your first package. The structure of this post is created in my particular structure, and there are other formats you can follow to do the accomplish this task. However, for further information I would recommend to seek out a more comprehensive guide at Hadley Wickham's online Book [R Packages 2ed](https://r-pkgs.org/) as that will contain further informattion that goes beyond this guide.
+
+Just a note for licensing, I have copied and redistributed partial code and not made any changes (specifically remixed, transformed or built upon the original source code) as I am only using this blog post as a collection of all the tools.
+
+# 1- Initialising an R Package
+
+```{r}
+usethis::create_package("demopkg")
+```
+
+By default, when working in RStudio, `create_package` will create the empty format of an R package and also makes an RStudio Session through a RStudio project session. If you issue the `create_package` command when already working in an RStudio project and ask it to create the directory in your working directory, you will therefore by default be asking it to put an RStudio project inside another RStudio project. It can do this, but it will warn you that it is a bad idea. Normally, therefore, we would run the create_package command outside on an RStudio project, and make sure to choose a directory location for the R package that is not inside another RStudio project
+
+Assuming that we chose to create the bare-bones R package inside `~/code/rdemopkg`, what files and directories are created can be seen with `dir_tree` function from the `fs` package, where we use `all = TRUE` to list hidden files too:
+
+```{r}
+library(fs)
+dir_tree("~/code/rdemopkg", all = TRUE)
+```
+
+This creates 6 files or directories.
+
+- `demopkg.Rproj` - The R Project session for the new R Package we are attempting to create
+- `gitignore` - The
+- `R/` - An empty directory for storing R code files `.R`.
+- `DESCRIPTION` - An editable meta file that contains information important details about the R package. This includes the name, title, description, authors, package dependencies. We can edit this manually or use the `usethis` package for partial edits.
+- `NAMESPACE` - Another meta information file which controls which R functions or other pieces that are exported from the package. Using `roxygen2` will automatically add the code for what we need
+
+Assuming, we issued the command `usethis::create_package("~/code/demopkg")` inside of RStudio, this will have commenced the `demopkg.Rproj` session for the empty package and have also started a new RStudio session.
+
+I will recommend readers to also create a `README.md` file as this is a staple document for explaining the philosophy, workflow, and tools of the package when users first will come to your package. You can also simply just add some text for brevity if you are not a courteous open source user...
+
+# 2 - Metadata
+
+Here I want to quickly explain for readers who are not so technical and for sake of brevity, metadata is essentially the top level information of the package that pertains to the package. In other words, it is the information that pertains to the R package which is comprised: `Licensing`, `DESCRIPTION`, and `NAMESPACE`. It essentially provides structured information of the package and provides context for tool developers and R Package users where everything comes from and essentially labels the package with this top level information. It allows authorship of the code and everything wrapped around that package and what rights other users have when distributing code for other users in the scientific community.
+
+## 2.1 Metadata: Licensing
+
+Selecting a software license can be of principle an issue when someone's background isn't very inclined towards the legal side of things. Nonetheless, the importance of licensing comes from the very possible actions as to what could happen to you code, or what code you are using to build upon it. It's of course simple if you know that the [GPL](https://opensource.org/license/gpl-3.0) and [MIT](https://opensource.org/license/mit). Nevertheless, we can easily use the function from the `usethis` package to upload a specific license:
+
+```{r}
+usethis::use_mit_license()
+```
+
+If you want to use something else other than the MIT License then just press `Tab` after writing up `usethis::`.
+
+Using these functions will add a specific line in the `DESCRIPTION` package and also add a copy of the selected license into a markdown file called `LICENSE.md` to the directory of our R package that we are creating.
+
+## 2.3 Metadata: Description
+
+For this example we will use the MIT License.
+
+```{r}
+
+```
+
+## 2.3 Metadata: Package Dependencies
+
+### `tidyverse` dependencies
+
+For [`tidyverse`](https://tidyverse.org/) it's a little different to add tools from this package as the package tidyverse in itself is a meta-package, or in other words, a package containing other packages. As it's the main toolset for data scientists for using modern workflows of R. Therefore, I'd recommend listing specific packages such as `ggplot2` which is packaged under `tidyverse`.
+
+More importantly, we want to extract the pipe operator so that it can be both imported and
+
+# 3 - Components
+
+From what I have read there are various ways to start an R Package, therefore, I would start with the core things that make the package different compared to other packages, the daat and the code itself. These are the lifeline to what makes the package stand out in contrast to other packages. Therefore, the components that you are inputting into your package need to be in alignment to the philosophy of the R Package you are attempting to create, whether it be for introductory purposes for new users or for developing modelling techniques for users in a specific field for workflow reasons or for appropriately compiling functions for the application.
+
+## 3.1 - Components: Code
+
+## 3.2 - Components: Data
+
+## 3.3 - Components: Advanced Elements
+
+Some tid bits that some other packages may hold other types of directories. Here I would refer readers to read section 8 by Hadley Wickham's R Packages online texbook for what other type of fodlers you may find that other users have created:
+
+https://r-pkgs.org/misc.html
+
+I primarily explain the core elements above which are the `code` and the `data` that makes the distinction for the R package. Interested readers should go to Hadley's full textbook for a fuller and more comprehensive guide to the topic of creating R packages.
+
+# 4 - Tests
+
+# 5 - Documentation
+
+## 5.1 - Vignette
+
+## 5.2 - pkgdown
+
+# 6 - Distribution
+
+Now to distribute an R Package we need to make sure that...
+
+## 6.1 - Git & GitHub
+
+The last thing to do is making sure that is set up online through a GitHub Repository. For Windows users, I'd recommend using [Git Bash](https://gitforwindows.org/) by initialising a git repository using the command `git init`. You can also accomplish the same thing with the `usethis` package with the `use_git` command. Since we are attempting to maintain our workflow inside RStudio then I would use this function to accomplish the task for readers.
+
+```         
+use_git()
+```
+
+A repo will be created and you will prompted by the console if you wish to include all the files into the repository except for those explicitly listed in the `.gitignore` file. I would create a note for yourself to remind yourself of any tasks when first creating a package for the first time as you may not be accustomed to creating these sorts of things. I would call it `note.txt` and then make sure to add it into the `.gitignore` file so that it is not uploaded for readers to see what you wish to add or do with the package, unless you want users to see it of course.
+
+# 7 - Reuse
+
+The licensing for this blog post follows [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) And to cite this blog post then please use:
+
+```         
+@online{vizcainovickers2026, 
+  author = Vizcaino Vickers, Sam}, 
+  title = {Creating R Packages},
+  date = {2026-08-01}, 
+  url = {https://sam-vizcaino-vickers.github.io/notes/creating-R-Packages}, 
+  langid = {en}, 
+  }
+```
+
+# References
+
+Andrews, Mark. 2021. “How to Make an R Package.” December 3, 2021. https://www.mjandrews.org/notes/how-to-make-an-R-package/.
+
+```         
+@online{andrews2021,
+  author = {Andrews, Mark},
+  title = {How to {Make} an {R} Package},
+  date = {2021-12-03},
+  url = {https://www.mjandrews.org/notes/how-to-make-an-R-package/},
+  langid = {en}
+}
+```
+
+Wickham, H., & Bryan, J. (2023). R packages. " O'Reilly Media, Inc.".
+
+```         
+@book{wickham2023r,
+  title={R packages},
+  author={Wickham, Hadley and Bryan, Jennifer},
+  year={2023},
+  publisher={" O'Reilly Media, Inc."}
+}
+```
