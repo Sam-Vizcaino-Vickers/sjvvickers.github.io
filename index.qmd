@@ -126,7 +126,7 @@ Although not directly working with, some of my academic interests and underlying
 {{< pagebreak >}}
 {{< pagebreak >}}
 
-Please look at the [About](sam-vizcaino-vickers.github.io/about/) section to find more about my specific interests related to my academic work. 
+Please look at the [About](sam-vizcaino-vickers.github.io/about/) section to find more about my specific interests related to my academic work.
 
 :::
 
