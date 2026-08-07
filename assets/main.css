@@ -452,7 +452,7 @@ hr.section-divider::after {
 
 @media (min-width: 992px) {
   body {
-    zoom: 1.25;
+    zoom: 1.10;
   }
 }
 
